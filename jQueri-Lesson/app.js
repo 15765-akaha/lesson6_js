@@ -1,3 +1,9 @@
 $(function(){
-   $('.box1').hide();
+   $('.box1').fadeIn(1000,function(){
+    $('.box1').css({
+   	 'background-color':'#0000FF',
+   	 'width':'200px',
+   	 'height':'100px'
+    }).fadeOut(1000);
+   });
 });
